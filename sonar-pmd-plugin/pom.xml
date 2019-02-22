@@ -87,6 +87,13 @@
       <groupId>net.sourceforge.pmd</groupId>
       <artifactId>pmd-java</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>com.alibaba.p3c</groupId>
+      <artifactId>p3c-pmd</artifactId>
+      <version>1.3.4</version>
+    </dependency>
+
     <dependency>
       <groupId>jdom</groupId>
       <artifactId>jdom</artifactId>
@@ -121,7 +128,7 @@
             <configuration>
               <rules>
                 <requireFilesSize>
-                  <maxsize>7000000</maxsize>
+                  <maxsize>8000000</maxsize>
                   <minsize>4200000</minsize>
                   <files>
                     <file>${project.build.directory}/${project.build.finalName}.jar</file>

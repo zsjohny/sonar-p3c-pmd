@@ -33,6 +33,11 @@ public final class PmdConstants {
     public static final String XPATH_EXPRESSION_PARAM = "xpath";
     public static final String XPATH_MESSAGE_PARAM = "message";
 
+
+    public static final String P3C_REPOSITORY_KEY = "pmd-p3c";
+    public static final String P3C_REPOSITORY_NAME = "PMD P3C";
+
+
     /**
      * Key of the java version used for sources
      */
