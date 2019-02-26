@@ -94,6 +94,10 @@
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
     </rule>
+    <rule key="AvoidNegationOperatorRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
+    </rule>
 
     <!--AlibabaJavaNaming-->
     <rule key="ClassNamingShouldBeCamelRule">
@@ -183,6 +187,14 @@
     <rule key="AvoidMissUseOfMathRandomRule">
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
+    </rule>
+    <rule key="MethodTooLongRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/MethodTooLongRule]]></configKey>
+    </rule>
+    <rule key="UseRightCaseForDateFormatRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/UseRightCaseForDateFormatRule]]></configKey>
     </rule>
 
     <!--AlibabaJavaSets-->
